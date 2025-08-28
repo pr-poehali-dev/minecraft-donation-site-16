@@ -97,5 +97,31 @@
 
   body {
     @apply bg-background text-foreground;
+    background: linear-gradient(135deg, #8b4513 0%, #2f4f4f 100%);
   }
+}
+
+/* Minecraft pixelated styles */
+.minecraft-button {
+  border: 4px solid;
+  border-color: #d4d4d8 #71717a #71717a #d4d4d8;
+  image-rendering: pixelated;
+  font-family: "Courier New", monospace;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+.minecraft-card {
+  border: 3px solid #8b4513;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 100%
+  );
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.pixel-font {
+  font-family: "Courier New", monospace;
+  text-rendering: optimizeSpeed;
+  image-rendering: pixelated;
 }

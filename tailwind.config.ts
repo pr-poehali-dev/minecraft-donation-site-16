@@ -19,6 +19,14 @@ export default {
 		},
 		extend: {
 			colors: {
+				// Minecraft colors
+				minecraft: {
+					green: '#41691E',
+					brown: '#8B4513',
+					blue: '#2169E1',
+					yellow: '#FFD700',
+					dark: '#2F4F4F'
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -88,7 +96,14 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pixel-bounce': 'bounce 1s infinite'
+			},
+			fontFamily: {
+				'minecraft': ['Courier New', 'monospace']
+			},
+			fontFamily: {
+				'minecraft': ['Courier New', 'monospace']
 			}
 		}
 	},
